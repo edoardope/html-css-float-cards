@@ -28,7 +28,7 @@ header{
     margin: 40px auto 60px;
     text-align: center;
     font-family: 'Fredoka One', cursive;
-    width: 1260px;
+    width: 1150px;
 }
 
 h2{
@@ -60,7 +60,7 @@ section{
 .box-1{
     float: left;
     background-color: black;
-    width: 400px;
+    width: calc( (100%/3) - 3%);
     font-family: 'Fredoka One', cursive;
     box-shadow: #dfdfdf 10px -10px 10px -1px;
     
@@ -68,17 +68,18 @@ section{
 
 .box-2{
     float: left;
-    margin-left: 3%;
+    margin-left: 4.5%;
     background-color: black;
-    width: 400px;
+    width: calc( (100%/3) - 3%);
     font-family: 'Fredoka One', cursive;
     box-shadow: #dfdfdf 10px -10px 10px -1px;
 }
 
 .box-3{
-    float: right;
+    float: left;
+    margin-left: 4.5%;
     background-color: black;
-    width: 400px;
+    width: calc( (100%/3) - 3%);
     font-family: 'Fredoka One', cursive;
     box-shadow: #dfdfdf 10px -10px 10px -1px;
    
